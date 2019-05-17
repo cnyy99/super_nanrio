@@ -1,0 +1,54 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BlockDestroy : MonoBehaviour
+{
+    public float xPos;
+    public float yPos;
+    public float zPos;
+    public float waiting = 0.05F;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        xPos = transform.position.x;
+        yPos = transform.position.y;
+        zPos = transform.position.z;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    IEnumerator OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            this.transform.position = new Vector3(xPos, yPos + 0.1F, zPos);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos + 0.2F, zPos);
+            yield return new WaitForSeconds(waiting);
+            transform.GetComponent<Collider>().isTrigger = false;
+            this.transform.position = new Vector3(xPos, yPos + 0.3F, zPos + 0.5F);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos + 0.4F, zPos + 1.0F);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos - 0.1F, zPos + 1.5F);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos - 0.6F, zPos + 2.0F);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos - 1.6F, zPos + 2.0F);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos - 2.6F, zPos + 2.0F);
+            yield return new WaitForSeconds(waiting);
+            this.transform.position = new Vector3(xPos, yPos - 4.0F, zPos + 2.0F);
+            yield return new WaitForSeconds(0.25F);
+            transform.GetComponent<Collider>().isTrigger = true;
+            Destroy(gameObject);
+        }
+    }
+
+}
