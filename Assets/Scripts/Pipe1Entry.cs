@@ -8,7 +8,11 @@ public class Pipe1Entry : MonoBehaviour
     public GameObject PipeEntry;
     public int StoodOn;
     public int temp = 0;
+    public GameObject MainCamera;
+    public GameObject SecondCamera;
+    public GameObject FadeScreen;
 
+    public GameObject MainPlayer;
     void OnTriggerEnter(Collider col)
     {
         StoodOn = 1;
@@ -31,19 +35,30 @@ public class Pipe1Entry : MonoBehaviour
                 // PipeEntry.GetComponent<Animator>().enabled = true;
                 temp = 1;
                 StartCoroutine(WaitingForPipe());
-                temp = 4;
+                // temp = 4;
             }
         }
     }
 
     IEnumerator WaitingForPipe()
     {
+        FadeScreen.SetActive(true);
         PipeEntry.GetComponent<Animator>().enabled = true;
         temp = 2;
-        yield return new WaitForSeconds(2.0F);
+        yield return new WaitForSeconds(1.5F);
+        FadeScreen.GetComponent<Animator>().enabled = true;
+        yield return new WaitForSeconds(0.44F);
+        FadeScreen.GetComponent<Animator>().enabled = false;
         PipeEntry.GetComponent<Animator>().enabled = false;
         temp = 3;
+        SecondCamera.SetActive(true);
+        MainCamera.SetActive(false);
+        MainPlayer.transform.position = new Vector3(11.41F, -13F, 0.5F);
         //GameObject.Find("FPSController").GetComponent<"FirstPersonController">().enabled=true;
+        FadeScreen.GetComponent<Animator>().enabled = true;
+        yield return new WaitForSeconds(0.44F);
+        FadeScreen.GetComponent<Animator>().enabled = false;
+        FadeScreen.SetActive(true);
     }
 
 }
