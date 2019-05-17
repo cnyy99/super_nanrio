@@ -1,0 +1,67 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"textures": {
+		"0": "powerups/mushroom_face",
+		"1": "powerups/extralife"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 3, 10 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 4, 4 ], "texture": "#0" },
+				"up": { "uv": [ 0, 0, 4, 4 ], "texture": "#0" },
+				"north": { "uv": [ 7, 8, 11, 11 ], "texture": "#0" },
+				"south": { "uv": [ 3, 12.9, 7.8, 15.7 ], "texture": "#0" },
+				"west": { "uv": [ 0, 0, 4, 3 ], "texture": "#0" },
+				"east": { "uv": [ 3, 4, 7, 7 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 3, 3, 4 ],
+			"to": [ 13, 9, 12 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 3, 8 ], "texture": "#1" },
+				"up": { "uv": [ 1, 11.9, 13.8, 1.7 ], "texture": "#1" },
+				"north": { "uv": [ 1, 11.9, 13.8, 1.7 ], "texture": "#1" },
+				"south": { "uv": [ 1, 11.9, 13.8, 1.7 ], "texture": "#1" },
+				"west": { "uv": [ 1, 11.9, 13.8, 1.7 ], "texture": "#1" },
+				"east": { "uv": [ 1, 11.9, 13.8, 1.7 ], "texture": "#1" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 13, 0, -3 ],
+			"translation":  [ 0.6956, 7.6521, 1.3916 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 13, 0, -3 ],
+			"translation":  [ 0.6956, 7.6521, 1.3916 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 22, -28, 0 ],
+			"translation":  [ 9.7397, 21.564, -13.21 ],
+			"scale":  [ 0.7564, 0.6868, 1 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 20, -28, 0 ],
+			"translation":  [ 9.7397, 21.564, -13.21 ],
+			"scale":  [ 0.7564, 0.6868, 1 ]
+		},
+		"gui": {
+			"translation":  [ 0, 4.1739, 0 ],
+			"scale":  [ 1.2434, 1.2781, 1.2434 ]
+		},
+		"ground": {
+			"rotation":  [ 1, 1, 1 ],
+			"translation":  [ 0, 5.5652, 0 ],
+			"scale":  [ 1.1043, 1.2434, 1 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, -180, 0 ],
+			"translation":  [ 0, 4.8695, 0 ],
+			"scale":  [ 1.1391, 1.1391, 1.1043 ]
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"textures": {
+		"0": "caps/waluigi_normal"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 3, 0, 3 ],
+			"to": [ 13, 3.2, 13 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 10, 6 ], "texture": "#0" },
+				"up": { "uv": [ 2, 1, 12, 6 ], "texture": "#0" },
+				"north": { "uv": [ 0, 0, 10, 2.2 ], "texture": "#0" },
+				"south": { "uv": [ 0, 7.4, 16, 13.6 ], "texture": "#0" },
+				"west": { "uv": [ 2, 3, 12, 5.2 ], "texture": "#0" },
+				"east": { "uv": [ 0, 0, 10, 2.2 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 3, 0, 13 ],
+			"to": [ 13, 0.2, 15.2 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 10, 1 ], "texture": "#0" },
+				"up": { "uv": [ 0, 0, 10, 1 ], "texture": "#0" },
+				"north": { "uv": [ 0, 0, 10, 0.1999998 ], "texture": "#0" },
+				"south": { "uv": [ 0, 0, 10, 0.1999998 ], "texture": "#0" },
+				"west": { "uv": [ 0, 0, 1, 0.1999998 ], "texture": "#0" },
+				"east": { "uv": [ 0, 0, 1, 0.1999998 ], "texture": "#0" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 47, -180, 0 ],
+			"translation":  [ 1.3913, 5.5652, 3.4782 ],
+			"scale":  [ 0.7564, 1.0347, 0.826 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 47, -180, 0 ],
+			"translation":  [ 1.3913, 5.5652, 3.4782 ],
+			"scale":  [ 0.7564, 1.0347, 0.826 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 13, -11, 0 ],
+			"translation":  [ -4.869, 11.825, 0.6956 ],
+			"scale":  [ 0.8608, 0.826, 0.8608 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 13, -11, 0 ],
+			"translation":  [ -4.869, 11.825, 0.6956 ],
+			"scale":  [ 0.8608, 0.826, 0.8608 ]
+		},
+		"gui": {
+			"rotation":  [ 20, -30, 0 ],
+			"translation":  [ 0, 5.5652, 0 ]
+		},
+		"head": {
+			"rotation":  [ 0, -180, 0 ],
+			"translation":  [ 0, 18.084, 0.6969 ],
+			"scale":  [ 1.4521, 1.5912, 1.6953 ]
+		},
+		"ground": {
+			"translation":  [ 0, 4.1739, 0 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, -180, 0 ],
+			"translation":  [ 0, 8.3478, 0 ],
+			"scale":  [ 1, 1.3825, 0.2434 ]
+		}
+	}
+}

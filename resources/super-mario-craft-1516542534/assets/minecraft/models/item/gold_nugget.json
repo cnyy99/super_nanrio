@@ -1,0 +1,98 @@
+{
+	"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"textures": {
+		"0": "collectables/coin"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 4, 4, 8 ],
+			"to": [ 12, 12, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 8, 8, 9 ], "texture": "#0" },
+				"up": { "uv": [ 6, 8, 7, 9 ], "texture": "#0" },
+				"north": { "uv": [ 5.7, 6, 10.5, 10.5 ], "texture": "#0" },
+				"south": { "uv": [ 5.7, 6, 10.5, 10.5 ], "texture": "#0" },
+				"west": { "uv": [ 7, 8, 9, 10 ], "texture": "#0" },
+				"east": { "uv": [ 7, 7, 8.6, 10.1 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 3.6, 4.4, 8 ],
+			"to": [ 4, 11.8, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 7, 7.4, 8 ], "texture": "#0" },
+				"up": { "uv": [ 5, 7, 5.4, 8 ], "texture": "#0" },
+				"north": { "uv": [ 6, 8, 5.4, 9.4 ], "texture": "#0" },
+				"south": { "uv": [ 8, 8, 8.4, 9.4 ], "texture": "#0" },
+				"west": { "uv": [ 5, 8, 6, 9.4 ], "texture": "#0" },
+				"east": { "uv": [ 7, 8, 8, 9.4 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 12, 4.4, 8 ],
+			"to": [ 12.4, 11.8, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 7, 7.4, 8 ], "texture": "#0" },
+				"up": { "uv": [ 5, 7, 5.4, 8 ], "texture": "#0" },
+				"north": { "uv": [ 6, 8, 5.4, 9.4 ], "texture": "#0" },
+				"south": { "uv": [ 8, 8, 8.4, 9.4 ], "texture": "#0" },
+				"west": { "uv": [ 5, 8, 6, 9.4 ], "texture": "#0" },
+				"east": { "uv": [ 7, 8, 8, 9.4 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 4.2, 12, 8 ],
+			"to": [ 11.9, 12.4, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 7, 9.7, 8 ], "texture": "#0" },
+				"up": { "uv": [ 5, 7, 6.7, 8 ], "texture": "#0" },
+				"north": { "uv": [ 6, 8, 5.4, 9.4 ], "texture": "#0" },
+				"south": { "uv": [ 8, 8, 8.4, 9.4 ], "texture": "#0" },
+				"west": { "uv": [ 5, 8, 6, 9.4 ], "texture": "#0" },
+				"east": { "uv": [ 7, 8, 8, 9.4 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 4.2, 3.6, 8 ],
+			"to": [ 11.9, 4, 9 ],
+			"faces": {
+				"down": { "uv": [ 7, 7, 9.7, 8 ], "texture": "#0" },
+				"up": { "uv": [ 5, 7, 9.7, 8 ], "texture": "#0" },
+				"north": { "uv": [ 6, 8, 5.4, 9.4 ], "texture": "#0" },
+				"south": { "uv": [ 8, 8, 8.4, 9.4 ], "texture": "#0" },
+				"west": { "uv": [ 5, 8, 6, 9.4 ], "texture": "#0" },
+				"east": { "uv": [ 7, 8, 8, 9.4 ], "texture": "#0" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ -11, 1, -6 ],
+			"translation":  [ 0, 2.7826, 0.5 ],
+			"scale":  [ 0.6065, 0.5216, 0.2239 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -11, 1, -6 ],
+			"translation":  [ 0, 2.7826, 0.5 ],
+			"scale":  [ 0.6065, 0.5216, 0.2239 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ 2.0869, 2.7821, 0 ],
+			"scale":  [ 0.3737, 0.3042, 0.1651 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ 2.0869, 2.7821, 0 ],
+			"scale":  [ 0.3389, 0.3042, 0.1651 ]
+		},
+		"gui": {
+			"scale":  [ 1.1391, 1.1391, 1.2782 ]
+		},
+		"ground": {
+			"translation":  [ 0, 9.7391, 0 ],
+			"scale":  [ 1.2782, 1.1739, 2.3217 ]
+		},
+		"fixed": {
+			"scale":  [ 1.4956, 1.4868, 1 ]
+		}
+	}
+}
