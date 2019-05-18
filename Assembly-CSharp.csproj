@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\Pipe1Entry.cs" />
      <Compile Include="Assets\Scripts\Pipe1Exit.cs" />
      <Compile Include="Assets\Scripts\QuesBlock01.cs" />
+     <Compile Include="Assets\Scripts\RealMoshroomMuve.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/code/Unity/super mario/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
