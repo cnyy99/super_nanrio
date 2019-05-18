@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/level1Preload.unity
+    guid: 2130e0dd4b5fe424999133e2febc97ee
+  - enabled: 1
+    path: Assets/level1.unity
+    guid: 033eb2515c8f9964e86eb21ee45f0611
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: ed63bb54d4c71df45bc390e82549dc01
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: 1c7c378b1b7eb944eb4549336ed91941
   m_configObjects: {}
