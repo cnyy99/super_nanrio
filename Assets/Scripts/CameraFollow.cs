@@ -12,9 +12,7 @@ public class CameraFollow : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Vector3 temp = transform.position;
-        temp.y = StaticCameraY;
-        Camera.main.transform.position = temp;
+       
     }
 
     // Update is called once per frame

@@ -13,6 +13,7 @@ public class Pipe1Entry : MonoBehaviour
     public GameObject FadeScreen;
 
     public GameObject MainPlayer;
+    public AudioSource PipeSound;
     void OnTriggerEnter(Collider col)
     {
         StoodOn = 1;
@@ -42,6 +43,7 @@ public class Pipe1Entry : MonoBehaviour
 
     IEnumerator WaitingForPipe()
     {
+        PipeSound.Play();
         FadeScreen.SetActive(true);
         PipeEntry.GetComponent<Animator>().enabled = true;
         temp = 2;

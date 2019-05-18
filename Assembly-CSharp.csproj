@@ -64,7 +64,11 @@
      <Compile Include="Assets\Scripts\BlockDestroy.cs" />
      <Compile Include="Assets\Scripts\BlockNonDestroy.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\CoinPickUP.cs" />
+     <Compile Include="Assets\Scripts\CoinRoation.cs" />
+     <Compile Include="Assets\Scripts\GlobalCoins.cs" />
      <Compile Include="Assets\Scripts\Pipe1Entry.cs" />
+     <Compile Include="Assets\Scripts\Pipe1Exit.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/code/Unity/super mario/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
