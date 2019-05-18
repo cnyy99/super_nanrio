@@ -16,18 +16,18 @@ public class Pipe1Exit : MonoBehaviour
         PipeSound.Play();
         FadeScreen.SetActive(true);
         FadeScreen.GetComponent<Animator>().enabled = true;
-        yield return new WaitForSeconds(0.495f);
+        yield return new WaitForSeconds(0.49F);
         FadeScreen.GetComponent<Animator>().enabled = false;
         MainCam.SetActive(true);
         SecondCam.SetActive(false);
-        MainPlayer.transform.position = new Vector3(33.05f, 1, 0.5f);
+        MainPlayer.transform.position = new Vector3(33.05F, 0.5F, 0.5F);
         PipeEntry.GetComponent<Animator>().enabled = true;
         FadeScreen.GetComponent<Animator>().enabled = true;
-        yield return new WaitForSeconds(0.495f);
+        yield return new WaitForSeconds(0.49F);
         FadeScreen.GetComponent<Animator>().enabled = false;
+        FadeScreen.SetActive(false);
         yield return new WaitForSeconds(1);
         PipeEntry.GetComponent<Animator>().enabled = false;
-        FadeScreen.SetActive(false);
     }
     // Start is called before the first frame update
     void Start()
