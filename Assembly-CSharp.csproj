@@ -67,8 +67,12 @@
      <Compile Include="Assets\Scripts\CoinPickUP.cs" />
      <Compile Include="Assets\Scripts\CoinRoation.cs" />
      <Compile Include="Assets\Scripts\GlobalCoins.cs" />
+     <Compile Include="Assets\Scripts\Monster01Move.cs" />
+     <Compile Include="Assets\Scripts\MonsterDeath.cs" />
+     <Compile Include="Assets\Scripts\MoshroomMove.cs" />
      <Compile Include="Assets\Scripts\Pipe1Entry.cs" />
      <Compile Include="Assets\Scripts\Pipe1Exit.cs" />
+     <Compile Include="Assets\Scripts\QuesBlock01.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/code/Unity/super mario/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
