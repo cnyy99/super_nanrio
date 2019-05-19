@@ -15,7 +15,7 @@ public class GlobalLives : MonoBehaviour
         InternalLives = LivesAmount;
         LifeTextBox.GetComponent<Text>().text = "生命: " + InternalLives;
 
-        if (InternalLives == 0)
+        if (InternalLives <= 0)
         {
             StartCoroutine(GameOverScene());
         }

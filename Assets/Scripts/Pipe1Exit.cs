@@ -10,6 +10,7 @@ public class Pipe1Exit : MonoBehaviour
     public GameObject SecondCam;
     public GameObject PipeEntry;
     public GameObject MainPlayer;
+    public float TargetX = 33.05F;
 
     IEnumerator OnTriggerEnter(Collider col)
     {
@@ -20,7 +21,7 @@ public class Pipe1Exit : MonoBehaviour
         FadeScreen.GetComponent<Animator>().enabled = false;
         MainCam.SetActive(true);
         SecondCam.SetActive(false);
-        MainPlayer.transform.position = new Vector3(33.05F, 0.5F, 0.5F);
+        MainPlayer.transform.position = new Vector3(TargetX, 0.5F, 0.5F);
         PipeEntry.GetComponent<Animator>().enabled = true;
         FadeScreen.GetComponent<Animator>().enabled = true;
         yield return new WaitForSeconds(0.49F);

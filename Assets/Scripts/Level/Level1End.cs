@@ -11,6 +11,7 @@ public class Level1End : MonoBehaviour
     {
         FadeScreen.SetActive(true);
         FadeScreen.GetComponent<Animator>().enabled = true;
+        GlobalScore.CurrentScore+=TimeCount.TimeLeft*10;
         yield return new WaitForSeconds(0.495F);
         FadeScreen.GetComponent<Animator>().enabled = false;
         Application.LoadLevel(4);

@@ -12,6 +12,7 @@ public class MoshroomCollect : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            GlobalScore.CurrentScore += 100;
             GrowSound.Play();
             Moshroom.transform.position = new Vector3(0, -1000, 0);
             ThePlayer.transform.localScale += new Vector3(0.3f, 0.3f, 0.3f);

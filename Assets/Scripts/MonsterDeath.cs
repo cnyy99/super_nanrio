@@ -15,6 +15,7 @@ public class MonsterDeath : MonoBehaviour
         Monster.GetComponent<Monster01Move>().enabled = false;
         Monster.transform.localScale -= new Vector3(0, 0.8f, 0);
         Monster.transform.localPosition -= new Vector3(0, 0.4f, 0);
+        GlobalScore.CurrentScore += 100;
         yield return new WaitForSeconds(1);
         Monster.transform.position = new Vector3(0, -1000, 0);
     }

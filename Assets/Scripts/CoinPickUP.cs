@@ -12,6 +12,7 @@ public class CoinPickUP : MonoBehaviour
         transform.position = new Vector3(0, -1000, 0);
         CoinAudio.Play();
         GlobalCoins.CoinCount += 1;
+        GlobalScore.CurrentScore += 50;
     }
     // Start is called before the first frame update
     void Start()

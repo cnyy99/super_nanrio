@@ -20,6 +20,7 @@ public class Level1Death : MonoBehaviour
         Player.GetComponent<ThirdPersonUserControl>().enabled = false;
         Player.GetComponent<ThirdPersonCharacter>().enabled = false;
         Player.transform.localScale -= new Vector3(0, 0.6F, 0);
+        GlobalScore.CurrentScore=0;
         yield return new WaitForSeconds(3);
         Application.LoadLevel(0);
     }
