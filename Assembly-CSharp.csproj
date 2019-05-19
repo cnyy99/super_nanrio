@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\Death\Over2Menu.cs" />
      <Compile Include="Assets\Scripts\GlobalCoins.cs" />
      <Compile Include="Assets\Scripts\GlobalLives.cs" />
+     <Compile Include="Assets\Scripts\Level\Level1End.cs" />
      <Compile Include="Assets\Scripts\MenuControl.cs" />
      <Compile Include="Assets\Scripts\Monster01Move.cs" />
      <Compile Include="Assets\Scripts\MonsterDeath.cs" />

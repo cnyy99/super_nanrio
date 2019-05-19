@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GameOver.unity
     guid: 1c7c378b1b7eb944eb4549336ed91941
+  - enabled: 1
+    path: Assets/level2Preload.unity
+    guid: a4b877c7c551f3f46921d798e4c862fa
   m_configObjects: {}
