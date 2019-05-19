@@ -5,9 +5,13 @@ using UnityEngine;
 public class MonsterDeath : MonoBehaviour
 {
     public GameObject Monster;
+    public GameObject PlayerDeathTrigger1;
+    public GameObject PlayerDeathTrigger2;
     IEnumerator OnTriggerEnter(Collider col)
     {
         this.GetComponent<BoxCollider>().enabled = false;
+        PlayerDeathTrigger1.GetComponent<BoxCollider>().enabled = false;
+        PlayerDeathTrigger2.GetComponent<BoxCollider>().enabled = false;
         Monster.GetComponent<Monster01Move>().enabled = false;
         Monster.transform.localScale -= new Vector3(0, 0.8f, 0);
         Monster.transform.localPosition -= new Vector3(0, 0.4f, 0);
