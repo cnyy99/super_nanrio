@@ -27,16 +27,13 @@ public class Pipe1Entry : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("GoDown"))
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.S))
         {
             if (StoodOn == 1)
             {
-                //GameObject.Find("FPSController").GetComponent<"FirstPersonController">().enabled=false;
                 this.transform.position = new Vector3(0, -1000, 0);
-                // PipeEntry.GetComponent<Animator>().enabled = true;
                 temp = 1;
                 StartCoroutine(WaitingForPipe());
-                // temp = 4;
             }
         }
     }
@@ -56,7 +53,6 @@ public class Pipe1Entry : MonoBehaviour
         SecondCamera.SetActive(true);
         MainCamera.SetActive(false);
         MainPlayer.transform.position = new Vector3(11.41F, -13F, 0.5F);
-        //GameObject.Find("FPSController").GetComponent<"FirstPersonController">().enabled=true;
         FadeScreen.GetComponent<Animator>().enabled = true;
         yield return new WaitForSeconds(0.44F);
         FadeScreen.GetComponent<Animator>().enabled = false;
